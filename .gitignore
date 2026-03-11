@@ -1,0 +1,62 @@
+# Virtual Environment
+venv/
+.venv/
+.venv_stable/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# MLflow artifacts
+mlruns/
+mlartifacts/
+artifacts/
+
+# Data files (large files - don't push to GitHub)
+data/raw/
+data/ingested/
+data/processed/
+data/final/
+*.csv
+*.xlsx
+*.json
+*.parquet
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.tar
+
+# Model artifacts
+*.pkl
+*.joblib
+*.h5
+*.pt
